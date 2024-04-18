@@ -52,6 +52,16 @@ a{
     font-optical-sizing: auto;
 }
 
+.postcolumn{
+  display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    padding-top: 5px;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    width: 550px;
+}
+
 .barPic{
     padding-left: 20px;
     padding-top: 75px;
