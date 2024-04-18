@@ -46,20 +46,22 @@ a{
 .postholder{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: justify;
+    padding-left: 350px;
     padding-top: 5px;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
+    width: 700px;
 }
 
 .postcolumn{
   display: flex;
     flex-direction: column;
-    align-items: last baseline;
+    align-items: center;
     padding-top: 5px;
     font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
-    width: 550px;
+    font-optical-sizing: fixed;
+    width: 750px;
 }
 
 .barPic{
