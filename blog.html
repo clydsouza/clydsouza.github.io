@@ -13,7 +13,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        
+
+
+
     </head>
 
     <body>
@@ -75,13 +77,31 @@
             <div>
                 <p width="100px">
                     Here's a map of all the places that I want to travel (in blue),
-                    and the places that I have traveled (in gold).
+                    and the places that I have traveled (in gold). Below is a search box
+                    for many of my featured activities on Strava. 
     
                 </p>
             </div>
             <div class="mapholder">
                 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1UmlMXL4kc8qjOpDSMBglFV5xoNIKIVY&ehbc=2E312F" width="200%" height="100%"></iframe>
             </div>
+
+            <div class="title">
+                Find an activity
+            </div>
+            <div class="stravaBox">
+                <select id="iframeSelect">
+                    <option value="">----Select Activity----</option>
+                    <option value="9108942116">Bear Mountain</option>
+                    <option value="11809999745">Mt. Katahdin</option>
+                    <option value="11497848606">Mt. Washington</option>
+                    <option value="7358819576">Saco River Canoe Trip</option>
+                </select>
+                
+            </div>
+            <iframe id="stravaactivity" frameborder="0" width="100%" height="850px"></iframe>
+            <script src="your_script.js"></script>
             
+
     </body>
 </html>
